@@ -144,7 +144,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>0</top>
+    <top>28</top>
     <bottom>0</bottom>
     <left>0</left>
     <right>0</right>
@@ -224,9 +224,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    
-    
-    
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -257,15 +254,10 @@
         <desktop>yes</desktop>
       </action>
     </keybind>
-
-
     <!-- W I N D O W  MOVING AND R E S I Z I N G -->
-
     <keybind key="Mod5-C-M">
       <action name="Move"/>
     </keybind>
-
-    
     <keybind key="Mod4-A-C-Right">
       <action name="SendToDesktop">
         <to>right</to>
@@ -276,9 +268,6 @@
         <to>left</to>
       </action>
     </keybind>
-
-
-
     <keybind key="Mod4-A-C-1">
       <action name="SendToDesktop">
         <to>1</to>
@@ -309,8 +298,6 @@
         <to>6</to>
       </action>
     </keybind>
-
-
     <keybind key="Mod4-Right">
       <action name="Undecorate"/>
       <action name="MoveResizeTo">
@@ -319,7 +306,7 @@
         <height>100%</height>
         <width>50%</width>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="Mod4-Left">
       <action name="Undecorate"/>
       <action name="MoveResizeTo">
@@ -337,7 +324,7 @@
         <height>50%</height>
         <width>100%</width>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="Mod4-Down">
       <action name="Undecorate"/>
       <action name="MoveResizeTo">
@@ -347,8 +334,6 @@
         <width>100%</width>
       </action>
     </keybind>
-
-
     <keybind key="Mod4-A-M">
       <action name="Decorate"/>
       <action name="MoveResizeTo">
@@ -358,7 +343,6 @@
         <width>50%</width>
       </action>
     </keybind>
-
     <keybind key="Mod4-A-F">
       <action name="Undecorate"/>
       <action name="MoveResizeTo">
@@ -368,8 +352,6 @@
         <width>100%</width>
       </action>
     </keybind>
-
-
     <keybind key="Mod4-A-Right">
       <action name="MoveResizeTo">
         <monitor>next</monitor>
@@ -380,10 +362,7 @@
         <monitor>prev</monitor>
       </action>
     </keybind>
-    
-    
     <!-- DESKTOP NAVIGATION -->
-    
     <keybind key="C-A-1">
       <action name="Desktop">
         <desktop>1</desktop>
@@ -414,11 +393,7 @@
         <desktop>6</desktop>
       </action>
     </keybind>
-    
-    
-    
     <!-- A P P L I C A T I O N  S H O R T C U T  K E Y B I N D S -->
-    
     <keybind key="A-F2">
       <action name="Execute">
         <enabled>true</enabled>
@@ -446,21 +421,16 @@
     <keybind key="Mod4-W">
       <action name="Execute">
         <enabled>true</enabled>
-        <command>chromium-browser</command>
+        <command>chromium</command>
       </action>
     </keybind>
     <keybind key="Mod4-C">
       <action name="Execute">
         <enabled>true</enabled>
-        <command>ccc</command>
+        <command>wprotate</command>
       </action>
     </keybind>
-    
-    
-    
-    
     <!-- M U L T I M E D I A  K E Y B I N D S -->
-    
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
         <enabled>true</enabled>
@@ -497,12 +467,6 @@
         <command>mpc next</command>
       </action>
     </keybind>
-    
-	
-
-
-    
-    
     <keybind key="A-XF86AudioLowerVolume">
       <action name="Execute">
         <enabled>true</enabled>
@@ -539,8 +503,7 @@
         <command>ssh pi 'mpc next'</command>
       </action>
     </keybind>
-    
-		<keybind key="XF86Eject">
+    <keybind key="XF86Eject">
       <action name="Execute">
         <enabled>true</enabled>
         <command>eject /dev/sr0</command>

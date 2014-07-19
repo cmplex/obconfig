@@ -47,6 +47,8 @@ fi
 setxkbmap de &
 conky &
 xcompmgr &
+tint2 &
+wprotate &
 
 # Set display config
 /usr/bin/xrandr --output VGA1 --mode 1280x1024 --left-of HDMI1 --auto
